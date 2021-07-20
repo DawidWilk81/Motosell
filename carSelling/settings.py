@@ -15,14 +15,14 @@ SECRET_KEY = 'django-insecure-(=n6l89wr53j*&8$p-*_a*%*%&@3h2h@qv*q-znd6nhm+x&arz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.31.175','https://localhost:4200','https://motosellapp.herokuapp.com']
+ALLOWED_HOSTS = ['192.168.31.175','https://localhost:4200','motosellapp.herokuapp.com']
 
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:4200','https://motosellapp.herokuapp.com'
+    'http://localhost:4200','motosellapp.herokuapp.com'
 
 )
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:4200",'https://motosellapp.herokuapp.com'
+    "http://localhost:4200",'motosellapp.herokuapp.com'
 
 ]
 
