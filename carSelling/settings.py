@@ -36,7 +36,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'MotoSell',
     'rest_framework',
-    'rest_framework_jwt',
     'corsheaders',
     'rest_framework.authtoken',
 
